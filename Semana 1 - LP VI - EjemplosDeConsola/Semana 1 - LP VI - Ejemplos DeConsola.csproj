@@ -1,0 +1,68 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9949411-44BA-4A02-823A-662C12406B92}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Semana_1___LP_VI___EjemplosDeConsola</RootNamespace>
+    <AssemblyName>Semana 1 - LP VI - EjemplosDeConsola</AssemblyName>
+    <StartupObject>Semana_1___LP_VI___EjemplosDeConsola.Z_Class1</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aplicacion2.cs" />
+    <Compile Include="Aplicacion3.cs" />
+    <Compile Include="Aplicacion4.cs" />
+    <Compile Include="Aplicacion1.cs" />
+    <Compile Include="Program1.cs" />
+    <Compile Include="Program2.cs" />
+    <Compile Include="Program3.cs" />
+    <Compile Include="Program5.cs" />
+    <Compile Include="Propu10.cs" />
+    <Compile Include="Propu11.cs" />
+    <Compile Include="Propu9.cs" />
+    <Compile Include="Propue7.cs" />
+    <Compile Include="Propu8.cs" />
+    <Compile Include="Propuesto5.cs" />
+    <Compile Include="Propu6.cs" />
+    <Compile Include="Propuesto1.cs" />
+    <Compile Include="Propuesto2.cs" />
+    <Compile Include="Propuesto4.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Z Class1.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
